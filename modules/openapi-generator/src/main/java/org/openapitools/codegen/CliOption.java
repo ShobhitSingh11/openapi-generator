@@ -25,7 +25,7 @@ import java.util.Map;
 import java.util.Objects;
 
 public class CliOption {
-    // vg
+    // vgfdevrfvfr
     private final String opt;
     private String description;
     private String type;
