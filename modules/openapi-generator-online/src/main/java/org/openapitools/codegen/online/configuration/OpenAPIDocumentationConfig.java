@@ -45,7 +45,7 @@ import java.util.HashSet;
 @EnableSwagger2
 public class OpenAPIDocumentationConfig {
     private final Logger LOGGER = LoggerFactory.getLogger(OpenAPIDocumentationConfig.class);
-
+    // fv
     ApiInfo apiInfo() {
         final Properties properties = new Properties();
         try (InputStream stream = this.getClass().getResourceAsStream("/version.properties")) {
