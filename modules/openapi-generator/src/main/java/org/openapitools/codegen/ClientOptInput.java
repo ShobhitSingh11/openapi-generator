@@ -32,7 +32,7 @@ public class ClientOptInput {
     private OpenAPI openAPI;
     private List<AuthorizationValue> auths;
     private List<TemplateDefinition> userDefinedTemplates;
-
+    // rfhjb
     public ClientOptInput openAPI(OpenAPI openAPI) {
         this.setOpenAPI(openAPI);
         return this;
