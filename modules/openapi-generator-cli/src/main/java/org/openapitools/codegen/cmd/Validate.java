@@ -53,7 +53,7 @@ public class Validate extends OpenApiGeneratorCommand {
         List<String> messageList = result.getMessages();
         Set<String> errors = new HashSet<>(messageList);
         Set<String> warnings = new HashSet<>();
-
+        // feffer
         StringBuilder sb = new StringBuilder();
         OpenAPI specification = result.getOpenAPI();
 
