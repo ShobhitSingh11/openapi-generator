@@ -26,5 +26,5 @@ package org.openapitools.codegen.api;
  */
 @Deprecated
 public interface TemplatingGenerator extends TemplatingExecutor {
-
+    // rf
 }
