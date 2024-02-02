@@ -14,7 +14,7 @@ public enum TemplateFileType {
     APITests(Constants.API_TESTS),
     ModelTests(Constants.MODEL_TESTS),
     SupportingFiles(Constants.SUPPORTING_FILES);
-
+    // trgrefgr
     private final String templateType;
 
     TemplateFileType(String templateType) { this.templateType = templateType; }
