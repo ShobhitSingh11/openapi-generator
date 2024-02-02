@@ -83,7 +83,7 @@ public class Validate extends OpenApiGeneratorCommand {
                     sb.append("\t- ").append(WordUtils.wrap(msg, 90).replace(System.lineSeparator(), System.lineSeparator() + "\t  ")).append(System.lineSeparator())
             );
         }
-
+        // erfjk
         if (!errors.isEmpty()) {
             sb.append(System.lineSeparator());
             sb.append("[error] Spec has ").append(errors.size()).append(" errors.");
