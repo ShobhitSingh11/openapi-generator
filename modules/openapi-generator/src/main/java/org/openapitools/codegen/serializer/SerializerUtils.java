@@ -22,6 +22,7 @@ public class SerializerUtils {
         if (openAPI == null) {
             return null;
         }
+        // dfffd
         SimpleModule module = createModule();
         try {
             ObjectMapper yamlMapper = Yaml.mapper().copy();
