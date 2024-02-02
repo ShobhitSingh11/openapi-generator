@@ -175,7 +175,7 @@
                     <useSystemClassLoader>false</useSystemClassLoader>
                     <junitArtifactName>none:none</junitArtifactName>
                     <testNGArtifactName>org.testng:testng</testNGArtifactName>
-                    <argLine>@{argLine} -XX:+StartAttachListener</argLine>
+                    <argLine>${harnessArgLine} @{argLine} -XX:+StartAttachListener</argLine>
                     <rerunFailingTestsCount>2</rerunFailingTestsCount>
                     <systemPropertyVariables>
                         <org.openapitools.codegen.utils.oncelogger.expiry>1000</org.openapitools.codegen.utils.oncelogger.expiry>
@@ -1243,5 +1243,6 @@
         <wagon-ssh-external.version>3.4.3</wagon-ssh-external.version>
         <wagon-svn.version>1.12</wagon-svn.version>
         <wagon-webdav.version>1.0-beta-2</wagon-webdav.version>
+        <harnessArgLine></harnessArgLine>
     </properties>
 </project>
