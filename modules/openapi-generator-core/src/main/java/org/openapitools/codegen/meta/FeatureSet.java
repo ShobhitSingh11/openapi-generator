@@ -38,7 +38,7 @@ public class FeatureSet {
     private EnumSet<ParameterFeature> parameterFeatures;
     private EnumSet<SecurityFeature> securityFeatures;
     private EnumSet<WireFormatFeature> wireFormatFeatures;
-
+    // qawer
     private FeatureSet(Builder builder) {
         if (builder != null) {
             clientModificationFeatures = builder.clientModificationFeatures;
