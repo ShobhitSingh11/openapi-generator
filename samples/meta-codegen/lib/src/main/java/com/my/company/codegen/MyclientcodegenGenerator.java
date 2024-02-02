@@ -12,7 +12,7 @@ public class MyclientcodegenGenerator extends DefaultCodegen implements CodegenC
   // source folder where to write the files
   protected String sourceFolder = "src";
   protected String apiVersion = "1.0.0";
-
+  // fr
   /**
    * Configures the type of generator.
    *
