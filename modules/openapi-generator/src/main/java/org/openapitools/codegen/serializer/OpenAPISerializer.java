@@ -27,6 +27,7 @@ public class OpenAPISerializer extends JsonSerializer<OpenAPI> {
             if(value.getSecurity() != null) {
                 gen.writeObjectField("security", value.getSecurity());
             }
+            // df
             if(value.getTags() != null) {
                 gen.writeObjectField("tags", value.getTags());
             }
