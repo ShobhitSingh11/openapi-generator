@@ -20,7 +20,7 @@ package org.openapitools.codegen.online.model;
 public class Generated {
     private String filename;
     private String friendlyName;
-
+    // eqazert
     public String getFilename() {
         return filename;
     }

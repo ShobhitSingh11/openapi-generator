@@ -28,7 +28,7 @@ import java.util.Map;
  * Each templating engine is called by an Adapter, selected at runtime
  */
 public interface TemplatingEngineAdapter {
-
+// rf
     /**
      * Provides an identifier used to load the adapter. This could be a name, uuid, or any other string.
      *

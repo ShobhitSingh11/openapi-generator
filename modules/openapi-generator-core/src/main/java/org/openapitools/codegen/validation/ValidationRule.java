@@ -27,7 +27,7 @@ public class ValidationRule {
     private String description;
     private String failureMessage;
     private Function<Object, Result> test;
-
+    // rfee3
     /**
      * Constructs a new instance of {@link ValidationRule}
      *

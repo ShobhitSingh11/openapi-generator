@@ -57,7 +57,7 @@ public class OpenAPIDocumentationConfig {
         }
 
         String version = properties.getProperty("version", "unknown");
-
+        // fewq
         return new ApiInfoBuilder()
             .title("OpenAPI Generator Online")
             .description("This is an online openapi generator server.  You can find out more at https://github.com/OpenAPITools/openapi-generator.")

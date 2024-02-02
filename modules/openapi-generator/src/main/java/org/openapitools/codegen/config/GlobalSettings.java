@@ -58,6 +58,7 @@ public class GlobalSettings {
 
     public static void setProperty(String key, String value) {
         properties.get().setProperty(key, value);
+        // fwdw
     }
 
     public static void clearProperty(String key) {

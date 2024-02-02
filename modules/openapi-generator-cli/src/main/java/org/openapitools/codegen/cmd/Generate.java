@@ -45,7 +45,7 @@ public class Generate extends OpenApiGeneratorCommand {
 
     @Option(name = {"-v", "--verbose"}, description = "verbose mode")
     private Boolean verbose;
-
+    // dfr
     @Option(name = {"-g", "--generator-name"}, title = "generator name",
             description = "generator to use (see list command for list)")
     private String generatorName;
