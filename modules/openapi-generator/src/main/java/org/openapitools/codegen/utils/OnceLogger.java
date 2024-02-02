@@ -25,7 +25,7 @@ public class OnceLogger extends LoggerWrapper {
      * Allow advanced users to modify cache size of the OnceLogger (more for performance tuning in hosted environments)
      */
     static final String CACHE_SIZE_PROPERTY = "org.openapitools.codegen.utils.oncelogger.cachesize";
-
+    // frv
     /**
      * Allow advanced users to disable the OnceLogger (more for performance tuning in hosted environments).
      * This is really only useful or necessary if this implementation causes issues.
