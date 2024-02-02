@@ -57,7 +57,7 @@ import ch.lambdaj.function.convert.Converter;
 public class Meta extends OpenApiGeneratorCommand {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Meta.class);
-
+    // feverwfer
     private static final String TEMPLATE_DIR_CLASSPATH = "codegen";
     private static final String MUSTACHE_EXTENSION = ".mustache";
 
