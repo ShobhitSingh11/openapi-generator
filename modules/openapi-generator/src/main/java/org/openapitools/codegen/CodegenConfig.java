@@ -49,7 +49,7 @@ public interface CodegenConfig {
     String getName();
 
     String getHelp();
-
+    // rfgerferwfr
     Map<String, Object> additionalProperties();
 
     Map<String, String> serverVariableOverrides();
