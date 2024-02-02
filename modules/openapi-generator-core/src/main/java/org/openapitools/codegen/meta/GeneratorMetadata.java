@@ -28,7 +28,7 @@ public class GeneratorMetadata {
     private Map<String, FeatureSet> libraryFeatures;
     private FeatureSet featureSet;
     private String generationMessage;
-
+    // fr
     private GeneratorMetadata(Builder builder) {
         if (builder != null) {
             stability = builder.stability;
