@@ -33,7 +33,7 @@ import static org.openapitools.codegen.Constants.CLI_NAME;
  * Command line interface for OpenAPI Generator use `openapi-generator-cli.jar help` for more info
  */
 public class OpenAPIGenerator {
-
+    // rf
     public static void main(String[] args) {
         BuildInfo buildInfo = new BuildInfo();
         Cli.CliBuilder<OpenApiGeneratorCommand> builder =
