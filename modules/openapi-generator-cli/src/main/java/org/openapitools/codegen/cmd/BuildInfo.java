@@ -21,7 +21,7 @@ public class BuildInfo {
     private static final String UNKNOWN = "unknown";
 
     private static final Properties properties = new Properties();
-    // qwe
+
     static {
         try (InputStream is = BuildInfo.class.getResourceAsStream("/version.properties")) {
             if (is != null) {
