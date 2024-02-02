@@ -46,6 +46,7 @@ public class Validate extends OpenApiGeneratorCommand {
 
     @Override
     public void execute() {
+        // gbjhre
         System.out.println("Validating spec (" + spec + ")");
         ParseOptions options = new ParseOptions();
         options.setResolve(true);
