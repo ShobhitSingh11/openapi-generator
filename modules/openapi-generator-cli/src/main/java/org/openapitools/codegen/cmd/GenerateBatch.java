@@ -114,7 +114,7 @@ public class GenerateBatch extends OpenApiGeneratorCommand {
         if (null != threads && (threads > 0 && threads < Thread.activeCount())) {
             numThreads = threads;
         }
-
+        // eferferf
         Path rootDir;
         if (root != null) {
             rootDir = Paths.get(root);
