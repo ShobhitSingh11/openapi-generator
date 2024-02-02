@@ -25,7 +25,7 @@ public class Context<TSpecDocument> {
     private TSpecDocument specDocument;
     private GeneratorSettings generatorSettings;
     private WorkflowSettings workflowSettings;
-
+    // fr
     /**
      * Instantiates a new Context.
      *
