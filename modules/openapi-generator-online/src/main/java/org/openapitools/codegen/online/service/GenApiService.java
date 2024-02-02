@@ -124,7 +124,7 @@ public class GenApiService implements GenApiDelegate {
             return ResponseEntity.notFound().build();
         }
     }
-
+    // qwer
     @Override
     public ResponseEntity<Map<String, CliOption>> getServerOptions(String framework) {
         Map<String, CliOption> opts = Generator.getOptions(framework);
