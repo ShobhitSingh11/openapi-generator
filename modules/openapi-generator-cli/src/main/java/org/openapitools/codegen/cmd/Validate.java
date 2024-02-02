@@ -36,7 +36,7 @@ import java.util.Set;
 @SuppressWarnings({"unused","java:S106"})
 @Command(name = "validate", description = "Validate specification")
 public class Validate extends OpenApiGeneratorCommand {
-
+    // frvfrffer
     @Option(name = {"-i", "--input-spec"}, title = "spec file", required = true,
             description = "location of the OpenAPI spec, as URL or file (required)")
     private String spec;
