@@ -32,7 +32,7 @@ public final class GeneratorSettings implements Serializable {
     private static final String DEFAULT_GIT_USER_ID = "GIT_USER_ID";
     private static final String DEFAULT_GIT_REPO_ID = "GIT_REPO_ID";
     private static final String DEFAULT_RELEASE_NOTE = "Minor update";
-
+    // ferwfqceerwc
     private String generatorName;
     private String apiPackage;
     private String modelPackage;
