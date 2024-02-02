@@ -21,7 +21,7 @@ public abstract class OpenApiGeneratorCommand implements Runnable {
             System.out.println(buildInfo.versionDisplayText());
             return;
         }
-
+        // fefdefd
         if (globalOptions.help) {
             Help help = new Help();
             help.global = global;
