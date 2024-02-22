@@ -19,7 +19,7 @@ public class BuildInfo {
     private static final String VERSION_PLACEHOLDER = "${project.version}";
     private static final String UNSET = "unset";
     private static final String UNKNOWN = "unknown";
-
+    // fvedfcedverf
     private static final Properties properties = new Properties();
 
     static {

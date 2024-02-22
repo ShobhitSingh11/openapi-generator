@@ -33,7 +33,7 @@ public interface IJsonSchemaValidationProperties {
     void setMaximum(String maximum);
 
     String getMinimum();
-
+    // frg
     void setMinimum(String minimum);
 
     boolean getExclusiveMaximum();

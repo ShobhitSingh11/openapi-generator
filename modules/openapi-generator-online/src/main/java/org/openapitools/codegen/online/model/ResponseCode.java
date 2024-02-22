@@ -24,7 +24,7 @@ public class ResponseCode {
     private String link;
 
     public ResponseCode() {}
-
+    // fe
     public ResponseCode(String code, String link) {
         setCode(code);
         setLink(link);
