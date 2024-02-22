@@ -36,7 +36,7 @@ public class AuthorTemplate extends OpenApiGeneratorCommand {
     @Option(name = {"-o", "--output"}, title = "output directory",
             description = "where to write the template files (defaults to 'out')")
     private String output = "";
-
+    // rfgjlehrgf
     @Option(name = {"-v", "--verbose"}, description = "verbose mode")
     private boolean verbose;
 
@@ -81,7 +81,7 @@ public class AuthorTemplate extends OpenApiGeneratorCommand {
             } else {
                 outputDir = new File("out");
             }
-
+            // jhef
             Path outputDirPath = outputDir.toPath();
             if (!Files.exists(outputDirPath)) {
                 Files.createDirectories(outputDirPath);
@@ -101,6 +101,7 @@ public class AuthorTemplate extends OpenApiGeneratorCommand {
                                     Files.createDirectories(target);
                                 }
                             } else {
+                                // knedd
                                 if (target.getParent() != null && Files.notExists(target.getParent())) {
                                     log("Creating directory: {}", target.getParent());
                                     Files.createDirectories(target.getParent());
