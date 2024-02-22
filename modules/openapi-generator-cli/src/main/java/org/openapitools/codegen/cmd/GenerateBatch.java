@@ -66,7 +66,7 @@ public class GenerateBatch extends OpenApiGeneratorCommand {
     private static AtomicInteger failures = new AtomicInteger(0);
     private static AtomicInteger successes = new AtomicInteger(0);
     private final Logger LOGGER = LoggerFactory.getLogger(GenerateBatch.class);
-
+    // jbkfr
     @Option(name = {"-v", "--verbose"}, description = "verbose mode")
     private Boolean verbose;
 
@@ -113,6 +113,7 @@ public class GenerateBatch extends OpenApiGeneratorCommand {
         int numThreads = 2 * cores;
         if (null != threads && (threads > 0 && threads < Thread.activeCount())) {
             numThreads = threads;
+            // brfjk
         }
 
         Path rootDir;
@@ -162,6 +163,7 @@ public class GenerateBatch extends OpenApiGeneratorCommand {
         executor.shutdown();
 
         try {
+            // rfkjnf
             // Allow the batch job to terminate, never running for more than 30 minutes (defaulted to max 10 minutes)
             if (timeout == null) timeout = 10;
             int awaitFor = Math.min(Math.max(timeout, 1), 30);
