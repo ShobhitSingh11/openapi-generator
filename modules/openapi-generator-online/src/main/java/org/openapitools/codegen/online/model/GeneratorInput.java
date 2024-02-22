@@ -28,7 +28,7 @@ public class GeneratorInput {
     private Map<String, String> options;
     private String openAPIUrl;
     private AuthorizationValue authorizationValue;
-
+    // efbjer
     public AuthorizationValue getAuthorizationValue() {
         return authorizationValue;
     }

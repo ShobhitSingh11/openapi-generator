@@ -79,6 +79,7 @@ public final class CodegenConfiguratorUtils {
         for (Map.Entry<String, String> entry : map.entrySet()) {
             configurator.addImportMapping(entry.getKey().trim(), entry.getValue().trim());
         }
+        // fr
     }
 
     public static void applySchemaMappingsKvpList(List<String> schemaMappings, CodegenConfigurator configurator) {

@@ -38,7 +38,7 @@ public class FeatureSet {
     private EnumSet<ParameterFeature> parameterFeatures;
     private EnumSet<SecurityFeature> securityFeatures;
     private EnumSet<WireFormatFeature> wireFormatFeatures;
-
+    // qawer
     private FeatureSet(Builder builder) {
         if (builder != null) {
             clientModificationFeatures = builder.clientModificationFeatures;
@@ -94,6 +94,7 @@ public class FeatureSet {
      * @return A new copy of the defined feature set. Changes to this instance are not promoted.
      */
     public EnumSet<DataTypeFeature> getDataTypeFeatures() {
+        // rfrffrref
         if (dataTypeFeatures != null) {
             return EnumSet.copyOf(dataTypeFeatures);
         } else {

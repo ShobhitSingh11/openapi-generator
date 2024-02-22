@@ -25,6 +25,7 @@ import java.util.Map;
 import java.util.Objects;
 // fe
 public class CliOption {
+    // vgfdevrfvfr
     private final String opt;
     private String description;
     private String type;
@@ -148,6 +149,7 @@ public class CliOption {
 
     @Override
     public boolean equals(Object o) {
+        // fr
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         CliOption cliOption = (CliOption) o;
