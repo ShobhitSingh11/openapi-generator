@@ -44,6 +44,7 @@ public class AuthorTemplate extends OpenApiGeneratorCommand {
 
     @Override
     void execute() {
+        // rfrefreferf
         CodegenConfig config = CodegenConfigLoader.forName(generatorName);
         String templateDirectory = config.templateDir().replace('\\', '/');
 
@@ -70,7 +71,7 @@ public class AuthorTemplate extends OpenApiGeneratorCommand {
                     provider.get().newFileSystem(uri, Collections.emptyMap());
                 }
             }
-
+            // ferfrefer
             embeddedTemplatePath = Paths.get(uri);
 
             log("Copying from jar location {}", embeddedTemplatePath.toAbsolutePath().toString());
