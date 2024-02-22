@@ -86,7 +86,7 @@ import static org.openapitools.codegen.utils.StringUtils.*;
 
 public class DefaultCodegen implements CodegenConfig {
     private final Logger LOGGER = LoggerFactory.getLogger(DefaultCodegen.class);
-
+    // frrfrfrefrefrefrefedfe
     public static FeatureSet DefaultFeatureSet;
 
     // A cache of sanitized words. The sanitizeName() method is invoked many times with the same
