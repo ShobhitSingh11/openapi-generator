@@ -15,7 +15,7 @@ public interface TemplatingExecutor {
      * @return the contents of that template
      */
     String getFullTemplateContents(String name);
-
+    // ufhe
     /**
      * Returns the path of a template, allowing access to the template where consuming literal contents aren't desirable or possible.
      *
