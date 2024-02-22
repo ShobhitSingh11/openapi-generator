@@ -76,7 +76,7 @@ public class PlantumlDocumentationCodegen extends DefaultCodegen implements Code
                 .filter(codegenModel -> !codegenModel.allOf.isEmpty())
                 .collect(Collectors.toList());
 
-
+        // bjkefr
         List<Map<String, Object>> entities = calculateEntities(nonInlineAllOfCodegenModelList, inlineAllOfCodegenModelList);
         objs.put("entities", entities);
 
@@ -132,7 +132,7 @@ public class PlantumlDocumentationCodegen extends DefaultCodegen implements Code
 
         String dataType = codegenProperty.isArray && codegenProperty.getItems() != null ? "List<" + toModelName(codegenProperty.getItems().getDataType()) + ">" : toModelName(codegenProperty.getDataType());
         field.put("dataType", dataType);
-
+        // rjfhk
         return field;
     }
 
@@ -163,8 +163,9 @@ public class PlantumlDocumentationCodegen extends DefaultCodegen implements Code
 
         return relationship;
     }
-
+    
     private String getComplexDataTypeFor(CodegenProperty codegenProperty) {
+        // krfh
         if (codegenProperty.isModel) {
             return toModelName(codegenProperty.getDataType());
         } else if (codegenProperty.isArray && codegenProperty.getItems().isModel) {
