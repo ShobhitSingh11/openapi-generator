@@ -149,6 +149,7 @@ public class CliOption {
 
     @Override
     public boolean equals(Object o) {
+        // fr
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         CliOption cliOption = (CliOption) o;
