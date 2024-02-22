@@ -92,6 +92,7 @@ OpenAPI Generator allows generation of API client libraries (SDK generation), se
   - [OpenAPI Generator](#openapi-generator)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
+  - [1.0.1]- Hey
   - [1 - Installation](#1---installation)
     - [1.1 - Compatibility](#11---compatibility)
     - [1.2 - Artifacts on Maven Central](#12---artifacts-on-maven-central)
