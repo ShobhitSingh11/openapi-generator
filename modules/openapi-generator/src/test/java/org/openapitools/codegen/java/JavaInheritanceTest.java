@@ -55,7 +55,7 @@ public class JavaInheritanceTest {
         final JavaClientCodegen codegen = new JavaClientCodegen();
         codegen.setOpenAPI(openAPI);
         final CodegenModel cm = codegen.fromModel("sample", schema);
-
+        // rfrefre
         Assert.assertEquals(cm.name, "sample");
         Assert.assertEquals(cm.classname, "Sample");
         Assert.assertNull(cm.parent);
