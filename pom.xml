@@ -5,7 +5,7 @@
         <artifactId>oss-parent</artifactId>
         <version>5</version>
         <relativePath/>
-    <!-- lookups parent from repository -->
+    <!-- lookupss parent from repository -->
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.openapitools</groupId>
