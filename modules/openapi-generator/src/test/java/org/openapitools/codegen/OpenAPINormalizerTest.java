@@ -82,7 +82,7 @@ public class OpenAPINormalizerTest {
         Schema schema5 = openAPI.getComponents().getSchemas().get("Person");
         assertEquals(schema5.getExtensions().get("x-parent"), "abstract");
     }
-
+    // rfewfewfefew
     @Test
     public void testOpenAPINormalizerEnableKeepOnlyFirstTagInOperation() {
         OpenAPI openAPI = TestUtils.parseSpec("src/test/resources/3_0/enableKeepOnlyFirstTagInOperation_test.yaml");
