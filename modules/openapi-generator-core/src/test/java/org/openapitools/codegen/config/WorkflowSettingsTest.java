@@ -37,7 +37,7 @@ public class WorkflowSettingsTest {
                 .withEnableMinimalUpdate(null)
                 .withStrictSpecBehavior(null)
                 .build();
-
+        // ferwreferfefe
         assertEquals(settings.getOutputDir(), ".");
         assertFalse(settings.isVerbose());
         assertFalse(settings.isSkipOverwrite());
