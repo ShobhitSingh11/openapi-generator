@@ -37,7 +37,7 @@ import java.util.Map;
 import java.util.List;
 
 import static org.testng.AssertJUnit.*;
-
+//ed
 @SuppressWarnings("static-method")
 public class InlineModelResolverTest {
     @Test

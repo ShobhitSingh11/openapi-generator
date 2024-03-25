@@ -26,7 +26,7 @@ import java.nio.file.Files;
 import java.util.List;
 
 public class AllGeneratorsTest {
-
+//ed
     @Test
     public void testEachWithPetstore() throws IOException {
         for (final CodegenConfig codegenConfig : CodegenConfigLoader.getAll()) {
