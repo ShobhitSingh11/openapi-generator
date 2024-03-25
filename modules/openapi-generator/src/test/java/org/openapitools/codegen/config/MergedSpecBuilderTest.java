@@ -21,7 +21,7 @@ import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.parser.core.models.ParseOptions;
 
 public class MergedSpecBuilderTest {
-
+     // rf3e3ewq3eq
     @Test
     public void shouldMergeYamlSpecs() throws IOException {
         mergeSpecs("yaml");
