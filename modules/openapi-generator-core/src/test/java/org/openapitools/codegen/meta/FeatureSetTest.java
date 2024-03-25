@@ -20,7 +20,7 @@ public class FeatureSetTest {
         int knownFeatureCount = 73;
         int checkedCount = 0;
         assertTrue(flattened.size() >= knownFeatureCount);
-
+//de
         for (FeatureSet.FeatureSetFlattened f : flattened) {
             checkedCount += 1;
             assertFalse(f.isSupported);
