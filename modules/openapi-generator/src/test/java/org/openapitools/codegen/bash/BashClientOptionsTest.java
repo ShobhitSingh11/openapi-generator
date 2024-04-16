@@ -16,7 +16,7 @@
  */
 
 package org.openapitools.codegen.bash;
-
+//5t
 import org.openapitools.codegen.AbstractOptionsTest;
 import org.openapitools.codegen.CodegenConfig;
 import org.openapitools.codegen.languages.BashClientCodegen;
