@@ -69,7 +69,7 @@ public class GenerateTest {
         verify(configurator).addAdditionalProperty("key", "");
         verify(configurator).addAdditionalProperty("key2", "");
     }
-
+    //fr
     @Test
     public void testAdditionalPropertiesLongMultiple() {
         setupAndRunGenericTest("--additional-properties", "hello=world", "--additional-properties",
